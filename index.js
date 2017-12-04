@@ -24,25 +24,26 @@ function getDataFromApi(searchTermOne, searchTermTwo, searchTermThree, dates, ca
 }
 function renderResult(result) {
   //used concatenation so that it works on all the browsers
-  return '\n      \n      <div class="result-displayed">\n\n ' +       
-                      '<div class="image">\n' +          
-                        '<a class="js-result-title" href="' + result.url + '" target="_blank">'+
-                          '<div class="img" style="background-image:url(\'' + result.image.medium.url + '\')"\n'+ 
-                            'alt="Sorry! This image does not exist!">'+
-                          '</div>'+
-                        '</a>\n'+
-                        '<p>Click on the Image for more details!</p>\n'+
-                      '</div> \n\n'+        
-                        '<h2 id="title">' + result.title + ' </h2>\n'+        
-                        '<h4>' + result.start_time + '</h4>\n'+
-                        '<h3>' + result.city_name + '</h3>\n'+        
-                        '<p>Check out ' + result.title + '!</p> \n      \n'+              
-                    '</div>\n  ';
+  return '<div class="result-displayed"> ' +
+            '<div class="image">' +
+              '<a class="js-result-title" href="' + result.url + '" target="_blank">'+
+                          '<div class="img" style="background-image:url(\'' + result.image.medium.url + '\')" alt="Sorry! This image does not exist!"> </div>'+
+              '</a>'+
+              '<p>Click on the Image for more details!</p>'+
+            '</div>'+
+            '<div class="text">' +
+              '<h2 id="title">' + result.title + ' </h2>'+
+              '<h4>' + result.start_time + '</h4>'+
+              '<h3>' + result.city_name + '</h3>'+
+              '<p>Check out ' + result.title + '!</p>'+
+            '</div>'+
+            '<div class="clear"></div>' +
+          '</div>';
 }
 
 function displayEventfulSearchData(data) {
   // give an alert if there are no results
-  if (!data.events) {   
+  if (!data.events) {
     alert("No results found!");
     return false;
   }
@@ -64,9 +65,7 @@ function displayEventfulSearchData(data) {
     data.total_items = "Top 10";
   }
 
-  $('.js-search-results').html('<h1>Results</h1>' + ('<h4>' + data.total_items + ' result' + (data.total_items !== 0 && data.total_items !== 1 ? 's' : '') + '\n     </h4>')); // if result is not equal to 0 or 1, set the word as results in the end 
-
-
+  $('.js-search-results').html('<h1>Results</h1>' + ('<h4>' + data.total_items + ' result' + (data.total_items !== 0 && data.total_items !== 1 ? 's' : '') + '\n     </h4>')); // if result is not equal to 0 or 1, set the word as results in the end
   $(".results").html(results);
 }
 
