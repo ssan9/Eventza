@@ -112,6 +112,12 @@ color: #26418f;
   text-decoration: none;
 }
 
+/*.right{
+
+}
+.left{
+
+}*/
 a{
   text-decoration: none;
   /*color: #0e9aef;*/
@@ -136,16 +142,18 @@ margin-bottom: 0;
   /*width:300px;*/
 }
 
-
-.one{
-  zoom:70%;
-  width:50%;
+.pic{
+  width: 100%;
+  margin:10px;
+  width:25%;
   display: inline-block;
+  background-image: url("https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F28206486%2F187610677724%2F1%2Foriginal.jpg?h=230&w=460&rect=0%2C39%2C1500%2C750&s=4e77b603aa0b73137eb0199d61e88d33");
+  height:200px;
+  background-size: cover;
 }
 
-.container.about.pic img{
-  width:300px;
-  height:183px;
+.pic img{
+  width:100%
 }
 
 .para{
@@ -169,6 +177,8 @@ margin-bottom: 0;
 
 .two{
   float:right;
+  background-image: url("https://encrypted-tbn0.gstatic.com/klkimages?q=tbn:ANd9GcS3WdIYJ9sHw4o1VyIrf_oJqVoBaT0RSHlZ-WzCvyBFw1F4kJqJyA");
+
 }
 
 .second{
@@ -356,6 +366,14 @@ button:focus{background-color:#9fcfec;}
   border-bottom: 1px solid grey;
   border-top: 1px solid grey;
 }
+.results .result-displayed:nth-child(even) .image{
+  float:right;
+}
+.results .result-displayed:nth-child(even) .text{
+  float:left;
+  text-align: left;
+}
+
 
 
 .image{
@@ -508,7 +526,7 @@ background-color: white;
     /*display: block;*/
   }
 
-  
+
   label{
     display: block;
     width: 100%;
@@ -537,11 +555,6 @@ background-color: white;
     float:none;
   }
 
-  .pic{
-    text-align: center;
-    width: 100%;
-    margin:10px;
-  }
 
   .para{
     text-align: center;
@@ -567,7 +580,7 @@ background-color: white;
 
 select#miles{
   /*margin-top: 0;
-  padding-top: 0; 
+  padding-top: 0;
   /*vertical-align: middle;*/
   text-align: center;
   }
@@ -611,7 +624,7 @@ nav ul li a#home{
 }
 @media only screen and (max-width: 850px) {
 
-  
+
 
 
 div.about{
@@ -766,7 +779,7 @@ div.col-3{
   font-size: 0;
   display: inline-block;
   /*padding: 0;*/
- } 
+ }
 }
 
   /*display: block;

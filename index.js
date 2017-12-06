@@ -26,10 +26,10 @@ function renderResult(result) {
   //used concatenation so that it works on all the browsers
   return '<div class="result-displayed"> ' +
             '<div class="image">' +
-              '<a class="js-result-title" href="' + result.url + '" target="_blank">'+
-                          '<div class="img" style="background-image:url(\'' + result.image.medium.url + '\')" alt="Sorry! This image does not exist!"> </div>'+
-              '</a>'+
-              '<p>Click on the Image for more details!</p>'+
+               '<a class="js-result-title" href="' + result.url + '" target="_blank">'+
+                  '<div class="img" style="background-image:url(\'' + result.image.medium.url + '\')" alt="Sorry! This image does not exist!"> </div>'+
+               '</a>'+
+              // '<p>Click on the Image for more details!</p>'+
             '</div>'+
             '<div class="text">' +
               '<h2 id="title">' + result.title + ' </h2>'+
