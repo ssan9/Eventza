@@ -108,8 +108,11 @@ color: #26418f;
   font-size: 15px;
   font-weight: 700;
   background-color: white;
+  padding: 5px;
   /*color: #0e9aef;*/
   text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid #0033cc;
 }
 
 /*.right{
@@ -331,10 +334,11 @@ button{
 }
 
 button:hover{
-  border: 1px solid black;
+  border: 1px solid #0033cc;
 }
 
-button:focus{background-color:#9fcfec;}
+button:focus{
+  border: 2px solid #4B0082;}
 
 .results h1{
   padding-left: 80px;
