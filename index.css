@@ -57,7 +57,6 @@ nav ul li a{
   text-decoration: none;
 }
 
-
 .find{
   width: 125px;
   height:27px;
@@ -68,6 +67,8 @@ nav ul li a{
   padding: 5px;
   border-radius: 4px;
   border: 1px solid #0033cc;
+  display: inline-block;
+
 }
 
 .find:hover{
@@ -75,9 +76,7 @@ nav ul li a{
 }
 
 .find:focus{
-  background-color: #9fcfec ;
-  /*background-color: blue;*/
-
+  background-color: #9fcfec; 
 }
 
 a{
@@ -87,6 +86,7 @@ a{
 a:hover{
   color: #0e9aef;
 }
+
 .about{
   margin: 5%;
   margin-left:15%;
@@ -107,6 +107,12 @@ a:hover{
   width:100%
 }
 
+.two{
+  float:right;
+  background-image: url("https://encrypted-tbn0.gstatic.com/klkimages?q=tbn:ANd9GcS3WdIYJ9sHw4o1VyIrf_oJqVoBaT0RSHlZ-WzCvyBFw1F4kJqJyA");
+
+}
+
 .para{
   font-family: 'Barlow Semi Condensed', sans-serif;
   display: inline-block;
@@ -123,17 +129,9 @@ a:hover{
   margin: 7% 0;
 }
 
-
-.two{
-  float:right;
-  background-image: url("https://encrypted-tbn0.gstatic.com/klkimages?q=tbn:ANd9GcS3WdIYJ9sHw4o1VyIrf_oJqVoBaT0RSHlZ-WzCvyBFw1F4kJqJyA");
-
-}
-
 .second{
   margin: 7% 0;
 }
-
 
 .search-event{
   text-align: center;
@@ -153,73 +151,22 @@ a:hover{
 form{
   width: 100%;
   text-align: center;
-  min-height: 320px;
+  min-height: 300px;
   margin: 0 auto;
   color:white;
   display: inline-block;
 }
 
-/*form input{
-  height: 35px;
-  display: inline-block;
-  width:230px;
-}*/
-
 .event-search{
   display: inline-block;
 }
-
-
 
 .event-search input{
   width: 230px;
   display: inline-block;
   font-size: 0;
-    height: 35px;
-
+  height: 35px;
 }
-
-/*.location{
-  display: inline-block;
-}*/
-
-.find{
-  display: inline-block;
-
-}
-
-/*.start-date{
-  display: inline-block;
-
-}
-
-.end-date{
-  display: inline-block;
-
-}
-form #location{
-  text-align: center;
-  display: inline-block;
-  font-size: 12px;
-}
-
-form #keyword{
-  text-align: center;
-  display: inline-block;
-  font-size:12px;
-}
-
-form #start_date{
-  text-align: center;
-  display: inline-block;
-  font-size: 12px;
-}
-
-form #end_date{
-  text-align: center;
-  display: inline-block;
-  font-size: 12px;
-}*/
 
 form .js-query{
   text-align: center;
@@ -244,6 +191,14 @@ button{
   border: 1px solid rgb(169,169,169);
 }
 
+button:hover{
+  border: 1px solid #0033cc;
+}
+
+button:focus{
+  border: 2px solid #4B0082;
+}
+
 .search-button{
   background-image: url(https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.6_challenge_design_to_code/magnifying-glass.png);
   background-position: center;
@@ -256,20 +211,14 @@ button{
   vertical-align: middle;
 }
 
-button:hover{
-  border: 1px solid #0033cc;
-}
-
-button:focus{
-  border: 2px solid #4B0082;
+.js-search-results{
+  margin-top: 19px;
+  background-color: white;
 }
 
 .results h1{
   padding-left: 80px;
 }
-
-
-
 
 .result-displayed{
   padding: 20px 200px;
@@ -292,14 +241,17 @@ button:focus{
 .result-displayed h3{
   color: #4B0082;
 }
+
 .results .result-displayed:nth-child(odd){
   background: #E8E8E8;
   border-bottom: 1px solid grey;
   border-top: 1px solid grey;
 }
+
 .results .result-displayed:nth-child(even) .image{
   float:right;
 }
+
 .results .result-displayed:nth-child(even) .text{
   float:left;
   text-align: left;
@@ -367,20 +319,7 @@ h2{
   margin: 0 auto;
 }
 
-.js-search-results{
-  margin-top: 19px;
-  background-color: white;
-}
-
-.results{
-  background-color: white;
-}
-
 @media only screen and (max-width: 900px) {
-
-  .row{
-    width: 98%;
-  }
 
   .js-query{
     width:100%;
@@ -403,30 +342,20 @@ h2{
     margin: 4%;
   }
 
+  .row{
+    width: 98%;
+  }
+
+
   form .js-query{
     font-size: 12px;
   }
-  /*form{
-    width: 100%;
-    text-align: center;
-    height: 300px;
-    margin: 0 auto;
-    color:white;
-    display: inline-block;
-  }
-*/
+  
   form input{
     display: inline-block;
     font-size: 0;
   }
 
-  /*.col-3>div{
-    font-size: 0;
-  }*/
-  /*div.col-3{
-    font-size: 0;
-
-  }*/
   .event-search{
     display: inline-block;
     margin: 0;
@@ -434,28 +363,10 @@ h2{
   }
 
   .event-search input{
-    /*display: inline-block;
-    font-size: 0;*/
     width: 194px;
     margin: 0;
-}
-
-  
-  /*.distance{
-    height: 30px;
-    font-size:17px;
   }
 
-  .distance#miles{
-    height: 30px;
-    vertical-align: middle;
-  }
-
-  div.col-3{
-    font-size: 0;
-    display: inline-block;
-  }
-*/
   .col-3>div{
     font-size: 0;
     display: inline-block;
@@ -463,19 +374,6 @@ h2{
 }
 
 @media only screen and (max-width: 850px) {
-  .row{
-    width: 96%;
-  }
-
-  .event-search{
-    margin: 3%;
-  }
-
-  .event-search input{
-    width: 164px;
-    /*margin: 0 auto;
-    display: inline-block;*/
-  }
 
   .first-look{
     margin-bottom: 10%;
@@ -486,28 +384,56 @@ h2{
     margin-top: 150px;
   }
 
-  /*.find-event{
-    text-align: center;
-    text-decoration: none;
-  }*/
   .pic{
     width: 100%;
     margin: 2px;
   }
-  .js-search-form{
-    margin: 0;
-    min-height: 400px;
+
+  .para{
+    text-align: center;
+    width: 100%;
   }
 
-  /*form input{
-    display: block;
-    margin: 5px;
-    margin: 0 auto;
-  }*/
+  .js-search-form{
+    margin: 0;
+    min-height: 300px;
+  }
+  
+  .row{
+    width: 96%;
+  }
+
+  .distance label{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+
+  select#miles{
+    text-align: center;
+  }
+
+  .search-button{
+    text-align: center;
+    margin: 0;
+    margin-left: 20px;
+    padding-top: 0;
+    margin-top:0;
+  }
+
+  .event-search{
+    margin: 3%;
+  }
+
+  .event-search input{
+    width: 193px;
+  }
 
   .js-search-results{
-    margin-top: 90%;
+    margin-top: 19px;
     display: block;
+    text-align: center;
+
   }
 
   .result-displayed{
@@ -539,57 +465,9 @@ h2{
     text-align: center;
   }
 
-  .para{
-    text-align: center;
-    width: 100%;
-  }
-
-
   .result-displayed #title{
     display:block;
     text-align: center;
-  }
-
-  .distance label{
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-  }
-
-  select#miles{
-    
-    text-align: center;
-  }
-
-  .search-button{
-    text-align: center;
-    margin: 0;
-    margin-left: 20px;
-    padding-top: 0;
-    margin-top:0;
-  }
-
-  nav {
-    margin-top: 0;
-    text-align: center;
-  }
-
-  nav ul{
-    padding: 0;
-  }
-
-  nav ul li{
-    width: 25%;
-    text-align: center;
-  }
-
-  nav ul li a{
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  nav ul li a#home{
-    display: none;
   }
 
   .result-displayed{
@@ -603,7 +481,6 @@ h2{
     color: grey;
     margin: 0;
   }
-
 
   .text{
     margin:15px;
@@ -634,14 +511,8 @@ h2{
     clear: none;
   }
 
-
   .js-date h4{
     margin-left: 0;
-  }
-
-
-  .js-search-results{
-    text-align: center;
   }
 
   h2{
@@ -661,41 +532,14 @@ h2{
     text-overflow: ellipsis;
     text-align: left;
   }
-
-  .border {
-    border: 1px solid grey;
-    margin: 0 auto;
-  }
-
-  .js-search-results{
-    margin-top: 19px;
-    background-color: white;
-  }
-
-  .results{
-  
-    background-color: white;
-  }
-
-  #form{
-    min-height: 800px;
-  }
-
-}
-
-@media only screen and (max-width: 852px) {
-
-  .row{
-    width: 96%;
-  }
-
-  .event-search input{
-    width: 196px;
-    /*margin: 5%;*/
-  }
 }
 
 @media only screen and (max-width: 828px) {
+
+  .js-search-form{
+    margin: 0;
+    min-height: 300px;
+  }
 
   .row{
     width: 96%;
@@ -733,7 +577,6 @@ h2{
   }
 }
 
-
 @media only screen and (max-width: 699px) {
 
   .js-search-form{
@@ -746,6 +589,7 @@ h2{
     margin: 5px;
     display: block;
   }
+  
   .event-search input{
     display: block;
     text-align: center;
@@ -790,16 +634,16 @@ h2{
   }
 
   .image{
-  width:200px;
-  margin: 5% auto;
-  float: none;
-}
+    width:200px;
+    margin: 5% auto;
+    float: none;
+  }
 
-.img{
-  float: none;
-  margin: 0 auto;
-}
-.results .result-displayed:nth-child(even) .image{
-  padding: 5% 0;
-}
+  .img{
+    float: none;
+    margin: 0 auto;
+  }
+  .results .result-displayed:nth-child(even) .image{
+    padding: 5% 0;
+  }
 }
