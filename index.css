@@ -10,7 +10,6 @@ nav {
   position: fixed;
   height: 50px;
   background-color: white;
-  
   width: 100%;
 }
 
@@ -40,8 +39,8 @@ nav ul li a{
   background-size: cover;
   background-position: 0 45%; 
   font-weight: 900;
-/*  z-index: -1;
-*/  height: 500px;
+  z-index: -1;
+  height: 500px;
 }
 
 .first-look h1{
@@ -182,14 +181,14 @@ form{
 
 /*.location{
   display: inline-block;
-}
+}*/
 
 .find{
   display: inline-block;
 
 }
 
-.start-date{
+/*.start-date{
   display: inline-block;
 
 }
@@ -404,7 +403,10 @@ h2{
     margin: 4%;
   }
 
-  form{
+  form .js-query{
+    font-size: 12px;
+  }
+  /*form{
     width: 100%;
     text-align: center;
     height: 300px;
@@ -412,19 +414,19 @@ h2{
     color:white;
     display: inline-block;
   }
-
+*/
   form input{
     display: inline-block;
     font-size: 0;
   }
 
-  .col-3>div{
+  /*.col-3>div{
     font-size: 0;
-  }
-  div.col-3{
+  }*/
+  /*div.col-3{
     font-size: 0;
 
-  }
+  }*/
   .event-search{
     display: inline-block;
     margin: 0;
@@ -432,14 +434,14 @@ h2{
   }
 
   .event-search input{
-    display: inline-block;
-    font-size: 0;
+    /*display: inline-block;
+    font-size: 0;*/
     width: 194px;
     margin: 0;
 }
 
   
-  .distance{
+  /*.distance{
     height: 30px;
     font-size:17px;
   }
@@ -449,11 +451,11 @@ h2{
     vertical-align: middle;
   }
 
-  /*div.col-3{
+  div.col-3{
     font-size: 0;
     display: inline-block;
-  }*/
-
+  }
+*/
   .col-3>div{
     font-size: 0;
     display: inline-block;
@@ -471,8 +473,8 @@ h2{
 
   .event-search input{
     width: 164px;
-    margin: 0 auto;
-    display: inline-block;
+    /*margin: 0 auto;
+    display: inline-block;*/
   }
 
   .first-look{
@@ -484,10 +486,10 @@ h2{
     margin-top: 150px;
   }
 
-  .find-event{
+  /*.find-event{
     text-align: center;
     text-decoration: none;
-  }
+  }*/
   .pic{
     width: 100%;
     margin: 2px;
@@ -742,7 +744,6 @@ h2{
   form input{
     text-align: center;
     margin: 5px;
-    /*width: 230px;*/
     display: block;
   }
   .event-search input{
