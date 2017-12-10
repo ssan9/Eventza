@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" name="description" content="exercise on for Thinkful's front end web development course">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventza</title>
+  <link href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Oswald|Spirax" rel="stylesheet">
+  <script type="text/javascript"></script>
+  <link rel="stylesheet" href="index-one.css" type="text/css"/>
+  <link rel="stylesheet" href="float-grid-one.css" type="text/css"/>
+  <link rel="stylesheet" href="Rateyoplugin/jquery.rateyo.css"/>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+
+<body>
+
+  <nav role="navigation" class="nav_bar">
+    <!-- <img src="https://d.wildapricot.net/images/newsblog/bigstock-events-thumb.jpg?sfvrsn=0" class="icon" alt="events image"> -->
+    <ul>
+      <li><a href= "main.html" id="app-name">Eventza</a></li>
+      <!-- <li><a href="main.html" id="home" class="current">Home</a></li> -->
+      <!-- <li><a href="about.html" id="about">About</a></li> -->
+    </ul>
+  </nav>
+
+  <main role="main">
+
+  <div class="first-look">
+
+    <section>
+      <div class="find-event">
+        <h1>Find your next event</h1>
+        <a class="find" href="#search">Find</a>
+      </div>
+    </section>
+
+  </div>
+
+  <main role="main">
+    <div class="container">
+      <div class="about">
+        <div class="pic one">
+          <!-- <img src="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F28206486%2F187610677724%2F1%2Foriginal.jpg?h=230&w=460&rect=0%2C39%2C1500%2C750&s=4e77b603aa0b73137eb0199d61e88d33"> -->
+        </div>
+        <p class="para first">The users can rely on Eventza to find out what's happening and decide what to do; from movies, concerts and sports to family fun and nightlife.
+          They can instantly find upcoming events nearby or far away, based on the dates mentioned in their location search.
+        </p>
+      </div>
+
+      <div class="about">
+        <div class="pic two">
+          <!-- <img src="https://encrypted-tbn0.gstatic.com/klkimages?q=tbn:ANd9GcS3WdIYJ9sHw4o1VyIrf_oJqVoBaT0RSHlZ-WzCvyBFw1F4kJqJyA"> -->
+        </div>
+        <p class="para second">With millions of local events to choose from, Eventza provides the world's most comprehensive selection of local entertainment content and serves its users across multiple platforms including online, mobile and email, delivering highly personalized content to each of Eventza’s users.</p>
+      </div>
+
+      <!-- <div class="about">
+      <div class="pic three"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzyrXFLgbnZJz2tNF6EpKk9xeu7TdkQTg0DbZHemjYxnjj_66S"></div>
+    </div>
+  -->
+
+
+
+  <form id='search' action = "#" class = "js-search-form">
+
+
+    <div class="row">
+      <div class="col-12">
+        <div class="search-event">
+          <h2>Find your next event</h2>
+        </div>
+      </div>
+
+      <div class="event-search">
+        <div class="row">
+          <div class="col-3">
+            <div class = "location input-area">
+              <!-- <label for="location">Location</label> -->
+              <input type="text" name="location" id="location" class="js-query" aria-label="location" placeholder="Search by Location" >
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="keyword input-area">
+              <!-- <label for="find">Find</label> -->
+              <input type="text" name="find" id="keyword" class="js-query" aria-label="keyword" placeholder="Event Title, eg., Movies/ Concerts">
+            </div>
+          </div>
+
+
+          <div class="col-3">
+            <div class="start_date input-area inputthree-four">
+              <!-- <label for="start_date">Start Date</label> -->
+              <input type="text" name="start_date" id="start_date" class="js-query datepicker" aria-label="start_date" required placeholder="From Date" >
+            </div>
+          </div>
+
+
+          <div class="col-3">
+            <div class="end_date input-area inputthree-four">
+              <input type="text" name="end_date" id="end_date" class="js-query datepicker" aria-label="end_date" required placeholder="To Date" >
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+      <div class="row distance">
+        <label for="miles">Within Miles</label>
+        <select name="miles" id="miles" required>
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="15">15</option>
+          <option value="20">20</option>
+          <option value="25">25</option>
+          <option value="30">30</option>
+        </select>
+        <button aria-labelled-by="button" id="btn-search-submit" class="search-button" type="submit" name="search-button"></button>
+      </div>
+
+
+    </div>
+
+</form>
+</main>
+
+<div class="js-search-results">
+
+</div>
+
+<div class="results">
+
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="index.js"></script>
+<script src="moments.js"></script>
+<!-- <script src="Rateyoplugin/jquery.rateyo.js"></script> -->
+</main>
+
+<footer role="contentinfo"><small>&copy; 2017 Swati Saluja</small></footer>  
+</body>
+</html>
