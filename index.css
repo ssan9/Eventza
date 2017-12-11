@@ -35,9 +35,9 @@ nav ul li a{
 .first-look{
   background-color: blue;
   padding: 5% 0;
-  background-image: url("https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F31854258%2F148341602003%2F1%2Foriginal.jpg?w=1000&rect=0%2C317%2C4090%2C2045&s=c22c79ea328c51e5994f7623088c80eb");
+  background-image: url("https://images.unsplash.com/photo-1487954335942-047e6d1551ee?auto=format&fit=crop&w=750&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
   background-size: cover;
-  /*background-position: 0 55%;*/
+  background-position: 0 55%;
   width: 100%;
   /*font-weight: 900;*/
   height: 500px;
