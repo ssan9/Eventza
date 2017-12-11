@@ -35,10 +35,9 @@ nav ul li a{
 .first-look{
   background-color: blue;
   padding: 5% 0;
-  background-image: url("https://cdn.pixabay.com/photo/2016/03/28/09/36/water-1285168_960_720.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/01/10/38/trap-2564431_960_720.jpg");
   background-size: cover;
   width: 100%;
-  background-position: 0 15%; 
   font-weight: 900;
   height: 500px;
 }
