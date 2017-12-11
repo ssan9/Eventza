@@ -39,7 +39,6 @@ nav ul li a{
   background-size: cover;
   background-position: 0 55%;
   width: 100%;
-  /*font-weight: 900;*/
   height: 500px;
 }
 
@@ -211,11 +210,6 @@ button:focus{
   vertical-align: middle;
 }
 
-.js-search-results{
-  margin-top: 19px;
-  background-color: white;
-}
-
 .results h1{
   padding-left: 80px;
 }
@@ -223,7 +217,6 @@ button:focus{
 .result-displayed{
   padding: 20px 200px;
   text-align: left;
-  margin-bottom:2px;
 }
 
 .result-displayed h4{
@@ -472,6 +465,7 @@ footer a{
     float:none;
     margin: 0 auto;
   }
+  
   .results .result-displayed:nth-child(even) .text{
     float:none;
     text-align: center;
