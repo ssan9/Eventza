@@ -2,7 +2,7 @@ Eventza App
 
 ![eventza](https://user-images.githubusercontent.com/27262988/33869928-71011900-ded9-11e7-9de6-414f11656da7.jpg)
 
-![eventza1](https://user-images.githubusercontent.com/27262988/33870092-3e087ff6-deda-11e7-8bd2-d205e614034f.jpg)
+![image](https://user-images.githubusercontent.com/27262988/33870156-9396b3e8-deda-11e7-948d-a2644d4ca833.png)
 
 ![eventza 2](https://user-images.githubusercontent.com/27262988/33870101-42a7316a-deda-11e7-9e0c-95e79099cba6.jpg)
 
