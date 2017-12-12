@@ -2,9 +2,9 @@ Eventza App
 
 ![eventza](https://user-images.githubusercontent.com/27262988/33869928-71011900-ded9-11e7-9de6-414f11656da7.jpg)
 
-![eventza1](https://user-images.githubusercontent.com/27262988/33869794-ca416750-ded8-11e7-9424-562f61385f21.jpg)
+![eventza1](https://user-images.githubusercontent.com/27262988/33870092-3e087ff6-deda-11e7-8bd2-d205e614034f.jpg)
 
-![eventza 2](https://user-images.githubusercontent.com/27262988/33869798-cf945514-ded8-11e7-83b0-00695e551359.jpg)
+![eventza 2](https://user-images.githubusercontent.com/27262988/33870101-42a7316a-deda-11e7-9e0c-95e79099cba6.jpg)
 
 ## User Flow and Wireframe for the App
 User Flow-> https://gomockingbird.com/projects/b26ybb5/4gXVnC
