@@ -1,6 +1,6 @@
 Eventza App
 
-![eventza](https://user-images.githubusercontent.com/27262988/33869574-6c1acf3c-ded7-11e7-870b-380d5374c3fa.jpg)
+![eventza](https://user-images.githubusercontent.com/27262988/33869928-71011900-ded9-11e7-9de6-414f11656da7.jpg)
 
 ![eventza1](https://user-images.githubusercontent.com/27262988/33869794-ca416750-ded8-11e7-9424-562f61385f21.jpg)
 
