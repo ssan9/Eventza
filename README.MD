@@ -2,14 +2,12 @@ Eventza App
 
 ![eventza](https://user-images.githubusercontent.com/27262988/33869928-71011900-ded9-11e7-9de6-414f11656da7.jpg)
 
-![image](https://user-images.githubusercontent.com/27262988/33870156-9396b3e8-deda-11e7-948d-a2644d4ca833.png)
-
 ![eventza 2](https://user-images.githubusercontent.com/27262988/33870101-42a7316a-deda-11e7-9e0c-95e79099cba6.jpg)
 
 ## User Flow and Wireframe for the App
 User Flow-> https://gomockingbird.com/projects/b26ybb5/4gXVnC
 
-Wireframe-> https://go.gliffy.com/go/share/sq0lj1opuge421ff24c9
+Wireframe-> https://www.figma.com/file/apWBwmqjScy8FS3Qqu9ioQOK/Untitled
 
 ## Introduction
 A Web App where users would be able to see upcoming events related to local content, eg., movies, concerts, etc. in their desired location, based on the miles and date range selected by them. 
