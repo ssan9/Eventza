@@ -6,7 +6,6 @@ body  {
 
 nav {
   box-sizing: border-box;
-  text-align: right;
   position: fixed;
   height: 50px;
   background-color: white;
