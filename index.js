@@ -9,7 +9,7 @@ function getDataFromApi(searchTermOne, searchTermTwo, searchTermThree, dates, ca
     within: searchTermThree,
     units: 'mi',
     sort_order: 'date',
-    app_key: config.app_key
+    app_key: 'FJjthswGhP26qMXR'
   };
 
   $.ajax({
