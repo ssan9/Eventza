@@ -17,4 +17,4 @@ This App has been developed with the help of HTML, CSS, Javascript and jQuery.
 
 Eventful's API has been used here to meld the data. JSONP has been used to make asynchronous requests for data as it was hosted on another 
 domain. 
-Some plug-ins are also included for additional features, such as Moment.js to set the date's format.
+Some plug-ins are also included for additional features, such as Moment.js to set the date's format..
