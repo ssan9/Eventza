@@ -10,7 +10,7 @@ User Flow-> https://gomockingbird.com/projects/b26ybb5/4gXVnC
 Wireframe-> https://www.figma.com/file/apWBwmqjScy8FS3Qqu9ioQOK/Untitled
 
 ## Introduction
-A Web App where users would be able to see upcoming events related to local content, eg., movies, concerts, etc. in their desired location, based on the miles and date range selected by them. 
+A Web App where users would be able to see upcoming events eg., movies, concerts, etc. in their desired location, based on the miles and date range selected by them. 
 They would get a detailed information on the selected Event regarding the dates, timings, exact location, etc.
 
 This App has been developed with the help of HTML, CSS, Javascript and jQuery.
