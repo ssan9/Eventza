@@ -51,7 +51,7 @@ function displayEventfulSearchData(data) {
   var results = data.events.event.map(function (item, index) { //removed fat arrow function so that the results are rendered on all the browsers
     //if image is 'null' in json response, set a default image
     if (item.image === null) {
-      item.image = { medium: { url: 'https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAfTAAAAJGUzYWU5MjNlLWUyYmItNGEyYi05OWM4LWNkYzI0NGU2YWZmNQ.jpg' } };
+      item.image = { medium: { url: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a015de4c5a8a5e7be8e88ee39fb1ce2e&auto=format&fit=crop&w=1350&q=80' } };
     } else {
       item.image.medium.url = 'https:' + item.image.medium.url; //prefix the image url with https
     }
